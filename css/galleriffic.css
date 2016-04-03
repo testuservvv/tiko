@@ -1,0 +1,129 @@
+div.content_gallery {
+	/* The display of content is enabled using jQuery so that the slideshow content won't display unless javascript is enabled. */
+	display: none;
+	float: left;
+	width: 640px;
+	}
+div.content_gallery a, div.navigator a {
+	text-decoration: none;
+}
+div.content_gallery a:focus, div.content_gallery a:hover, div.content_gallery a:active {
+	text-decoration: underline;
+}
+div.controls {
+	margin-top:12px;
+	height: 18px;
+}
+
+
+div.controls a {
+	padding: 5px;
+}
+div.ss-controls {
+	float: left;
+}
+div.nav-controls {
+	float: right;
+}
+div.slideshow-container {
+	position: relative;
+	clear: both;
+	height: 445px; /* This should be set to be at least the height of the largest image in the slideshow */
+	width:634px;
+}
+div.loader {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-image: url('../images/gallery/loader.gif');
+	background-repeat: no-repeat;
+	background-position: center;
+	width:640px;
+	height:445px; /* This should be set to be at least the height of the largest image in the slideshow */
+}
+div.slideshow {
+
+}
+div.slideshow span.image-wrapper {
+	display: block;
+	position: absolute;
+	top: -12px;
+	left: 0;
+}
+div.slideshow a.advance-link {
+	text-align: center;
+	height: 445px; /* This should be set to be at least the height of the largest image in the slideshow */
+}
+div.slideshow a.advance-link:hover, div.slideshow a.advance-link:active, div.slideshow a.advance-link:visited {
+	text-decoration: none;
+}
+div.slideshow img {
+	vertical-align: middle;
+	border: 0px solid #ccc;
+}
+div.navigator {
+	/* The navigation style is set using jQuery so that the javascript specific styles won't be applied unless javascript is enabled. */
+	width:300px;
+}
+ul.thumbs {
+	clear: both;
+	margin: 0;
+	padding: 0 0px 0px 20px;
+}
+ul.thumbs li {
+	float: left;
+	padding: 0;
+	margin: 5px;
+	list-style: none;
+}
+
+* html ul.thumbs{padding:0px 0px 0px 15px}
+a.thumb {
+	padding: 2px;
+	display: block;
+	border: 1px solid #ccc;
+}
+ul.thumbs li.selected a.thumb {
+	background: #666666;
+}
+a.thumb:focus {
+	outline: none;
+}
+ul.thumbs img {
+	border: none;
+	display: block;
+}
+div.pagination {
+	clear: both;
+}
+div.navigator div.bottom {
+	padding:10px 0px 0px 25px;
+}
+
+*+html div.navigator div.bottom{padding:5px 0px 0px 25px;}
+
+div.pagination a, div.pagination span.current, div.pagination span.ellipsis {
+	display: block;
+	float: left;
+	margin-right: 2px;
+	padding: 0px 6px;
+	border: 1px solid #f5f5f5;
+	color:#333;
+	background-color:#fff;
+}
+div.pagination a:hover {
+	background-color: #eee;
+	text-decoration: none;
+}
+div.pagination span.current {
+	font-weight: bold;
+	background-color: #ededed;
+	border:solid 1px #f5f5f5;
+	color: #333;
+}
+div.pagination span.ellipsis {
+	border: none;
+	padding: 5px 0 3px 2px;
+}
+
+#controls{background-color:#f6f6f6; padding:8px}
