@@ -1,0 +1,40 @@
+* {
+    font-family: 'Lora', serif;
+}
+.scrollable .item_image img{
+    width: 93%;
+}
+
+.ticker ul li img{
+    width: 100%;
+}
+
+.ticker ul li{
+    min-height: 350px;
+}
+
+#sideright h2{
+    display: inline-block;
+}
+
+#logo_area,
+#logo_area span{
+    font-family: 'Poiret One', cursive;
+    font-weight: 700;
+    color: #000;
+    font-size: 35px;
+}
+
+#logo_area{
+    display: inline-block;
+    padding: 20px 5px 5px 5px;
+}
+
+#logo_area span{
+    color: #66ccff;;
+}
+
+#logo_area span:hover,
+#logo_area:hover{
+    text-decoration: none;
+}
